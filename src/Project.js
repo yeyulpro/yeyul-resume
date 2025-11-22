@@ -15,7 +15,7 @@ export const projects=[
         },
         {
             name: "Re-Hub",
-            url: "re-hub-portfolio.azurewebsites.net",
+            url: "http://re-hub-portfolio.azurewebsites.net",
             period: "Aug 2025 - Oct 2025",
             description:
                 "Developed a full-stack real estate information exchange platform where users gather and share property information.",
@@ -31,7 +31,7 @@ export const projects=[
         },
         {
             name: "YC-Tinder",
-            url: "yctinder.online",
+            url: "http://yctinder.online",
             period: "Oct 2025 - Nov 2025",
             description:
                 "Developed a Tinder-inspired social matching platform with MERN, featuring profile editing, real-time chat, and email notifications.",
