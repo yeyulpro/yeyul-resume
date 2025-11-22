@@ -1,10 +1,19 @@
   export const skills = [
-  "JavaScript", "TypeScript", "React.js", "Redux Toolkit", "RTK Query","React Query", "React Router",
-  "React Hook Form", "Zod", "Material UI", "Vite","Next.js", "Unit Testing (Jest, React Testing Library)", 
-  "Socket.io", "SignalR", "Axios", "HTML", "CSS",
-  "C#", "ASP.NET Core Web API", "Entity Framework Core", "ASP.NET Core Identity",
-  "Node.js", "Express.js", "MS SQL Server", "MongoDB", "Webhooks",
-  "RESTful APIs", "JWT", "Cookie-based Authentication","Docker", "Nginx", "Azure", "AWS", "GitHub Actions", "AWS S3","AWS Elastic Beanstalk",
-  "Clean Architecture (CQRS + Mediator)","CI/CD",
-  "PM2", "Agile/Scrum", "VS Code/Visual Studio", "Git/GitHub", "Postman", "Jira", "npm Package", "Draw.io","GoDaddy","CloudFlare"
+  // Backend
+"C#", "ASP.NET Core Web API", "Entity Framework Core", "ASP.NET Core Identity", "Node.js", "Express.js",
+"Socket.io", "SignalR", "Python", "Django", "MS SQL Server", "PostgreSQL", "SQL query", "NoSQL (MongoDB)",
+"RESTful APIs", "JWT", "bcrypt", "Webhooks", "Object-Oriented Design", "Clean Architecture (CQRS + Mediator)",
+
+// Frontend
+"JavaScript", "TypeScript", "React.js", "Redux Toolkit", "RTK Query", "React Query", "React Router",
+"React Hook Form", "Zod", "Material UI", "HTML", "CSS", "Unit Testing (Jest, React Testing Library)",
+
+// Deployment/Infrastructure
+"Docker", "Nginx", "Microsoft Azure (App Service)", "AWS EC2", "AWS Elastic Beanstalk", "AWS SES", "AWS S3", "PM2",
+
+// Tools/Collaboration
+"Git", "GitHub Actions CI/CD", "Agile/Scrum", "VS Code", "Postman", "Jira", "npm", "Draw.io",
+
+// Soft Skills
+"Collaborative", "Detail-oriented", "Accurate", "Deadline-driven"
 ];

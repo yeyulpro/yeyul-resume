@@ -30,7 +30,7 @@ export default function App() {
           YEYUL CHOI
         </Typography>
         <Typography variant="h6" color="text.secondary" sx={{ color: '#234C6A', fontWeight: 'bold' }}>
-          Junior Full-Stack Developer
+          Full-Stack Software Engineer Intern
         </Typography>
         <Box mt={1} sx={{ display: "flex", gap: 2, alignItems: "center" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -81,23 +81,24 @@ export default function App() {
           </Box>
         </Box>
       </Box>
-    
+
       <Paper sx={{ p: 2, mb: 3 }} elevation={1}>
         <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ color: '#1B3C53' }}>
           OBJECTIVE
         </Typography>
         <Typography variant="body1">
-          Aspiring Junior Full-Stack Developer skilled in <strong>C#</strong>,
-          <strong> ASP.NET Core Web API</strong>, <strong>React</strong>,
-          <strong>Node.js</strong>, <strong>Express.js</strong>, and
-          <strong> MongoDB</strong>. Experienced in building and deploying scalable
+          Aspiring Full-Stack Software Engineer Intern with hands-on development experience in <strong>C#</strong>,
+          <strong> ASP.NET Core Web API</strong>, <strong>React.js</strong>,
+          <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>,
+          <strong>Python</strong>, and <strong>Django</strong>. Experienced in building and deploying scalable
           applications on <strong>Azure</strong> and <strong>AWS</strong>
-          (<strong>AWS Certified Solutions Architect – Associate</strong>),
-          continuously learning new technologies, and delivering maintainable
-          software solutions.
+          (<strong>AWS Certified Solutions Architect – Associate</strong>), continuously learning new technologies,
+          and delivering maintainable software solutions.
         </Typography>
+
+
       </Paper>
-     
+
       <Paper sx={{ p: 2, mb: 3 }} elevation={1}>
         <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ color: "#1B3C53" }}>
           SKILLS
@@ -110,7 +111,7 @@ export default function App() {
           ))}
         </Grid>
       </Paper>
-     
+
       <Paper sx={{ p: 2, mb: 3 }} elevation={1}>
         <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ color: '#234C6A', fontWeight: 'bold' }}>
           CERTIFICATIONS
@@ -119,7 +120,7 @@ export default function App() {
           AWS Certified Solutions Architect – Associate (July 2023 – July 2026)
         </Typography>
       </Paper>
-     
+
       <Paper sx={{ p: 2, mb: 3 }} elevation={1}>
         <Typography variant="h6" fontWeight="bold" gutterBottom sx={{ color: '#234C6A', fontWeight: 'bold' }}>
           PROJECTS
@@ -133,28 +134,28 @@ export default function App() {
             <Typography variant="h6">{item.description}</Typography>
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <CircleIcon sx={{ fontSize: "0.5rem" }} />
-              <Typography  sx={{fontWeight:'bolder'}}>Backend</Typography>
+              <Typography sx={{ fontWeight: 'bolder' }}>Backend</Typography>
               <Typography variant="body2" color="initial">
                 {item.backend}
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <CircleIcon sx={{ fontSize: "0.5rem" }} />
-              <Typography  sx={{fontWeight:'bolder'}}>Frontend</Typography>
+              <Typography sx={{ fontWeight: 'bolder' }}>Frontend</Typography>
               <Typography variant="body2" color="initial">
                 {item.frontend}
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <CircleIcon sx={{ fontSize: "0.5rem" }} />
-              <Typography  sx={{fontWeight:'bolder'}}>Integrations</Typography>
+              <Typography sx={{ fontWeight: 'bolder' }}>Integrations</Typography>
               <Typography variant="body2" color="initial">
                 {item.integrations}
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <CircleIcon sx={{ fontSize: "0.5rem" }} />
-              <Typography  sx={{fontWeight:'bolder'}}>Deployment</Typography>
+              <Typography sx={{ fontWeight: 'bolder' }}>Deployment</Typography>
               <Typography variant="body2" color="initial">
                 {item.deployment}
               </Typography>
@@ -162,7 +163,7 @@ export default function App() {
             {item.improvement && (
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <CircleIcon sx={{ fontSize: "0.5rem" }} />
-                <Typography  sx={{fontWeight:'bolder'}}>Improvement</Typography>
+                <Typography sx={{ fontWeight: 'bolder' }}>Improvement</Typography>
                 <Typography variant="body2" color="initial">
                   {item.improvement}
                 </Typography>
@@ -171,7 +172,7 @@ export default function App() {
           </Box>
         ))}
       </Paper>
-     
+
       <Paper sx={{ p: 2, mb: 3 }} elevation={1}>
         <Typography variant="h6" fontWeight="bold" gutterBottom>
           EDUCATION
